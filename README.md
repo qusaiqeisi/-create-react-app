@@ -98,11 +98,11 @@ Actual time needed to complete: __1:40___
 
 Number and name of feature: ___________Bootstrap_____________________
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: __1___
 
 Start time: __5:20___
 
-Finish time: _____
+Finish time: ___18__
 
-Actual time needed to complete: _____
+Actual time needed to complete: __45___
 
