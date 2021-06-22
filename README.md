@@ -106,3 +106,15 @@ Finish time: _____
 
 Actual time needed to complete: _____
 
+
+
+Number and name of feature: ___________Display a Modal_____________________
+
+Estimate of time needed to complete: _____
+
+Start time: __14:30___
+
+Finish time: _____
+
+Actual time needed to complete: _____
+
