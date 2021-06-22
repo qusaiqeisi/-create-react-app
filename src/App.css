@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+
+h1{
+  color: #0c1113;
+  text-align: center;
+  background-color: #61dafb;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h4{
+  color: #0c1113;
+  text-align: center;
+  background-color: #61dafb;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
