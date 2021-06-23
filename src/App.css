@@ -51,3 +51,7 @@ h4{
   background-color: #61dafb;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+#form {
+  margin-bottom: 50px;
+}
