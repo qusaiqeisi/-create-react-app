@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
 import HornedBeast from './HornedBeast'
 import Beast from './Data.json'
-import {Row} from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
+// import { Form } from 'react-bootstrap';
+
+import Formbeast from './Formbeast';
 
 
 
@@ -11,30 +14,51 @@ import {Row} from 'react-bootstrap';
 
 class Main extends Component {
 
+
     render() {
 
 
+
         return (
-            <Row>
-                
-             
-                {Beast.map(beasts=> {
+            <>
+                <Formbeast horns={this.props.horns} />
 
-                    return <HornedBeast
-                        image_url={beasts.image_url}
-                        title={beasts.title}
-                        description={beasts.description}
-                        keyword={beasts.keyword}
-                        horns={beasts.horns} />
-
-                })
-                }
-                
+                <Row>
 
 
+                    {Beast.filter(Beast => Beast.horns == 1).map(Beast => (
+
+                        <HornedBeast image_url={Beast.image_url}
+                            title={Beast.title}
+                            description={Beast.description}
+                            horns={Beast.horns}
+                        />
+
+                    ))}
+
+                </Row>
+
+                {/* <Row>
 
 
-            </Row>
+                    {Beast.map(beasts => {
+
+                        return <HornedBeast
+                            image_url={beasts.image_url}
+                            title={beasts.title}
+                            description={beasts.description}
+                            keyword={beasts.keyword}
+                            horns={beasts.horns} />
+
+                    })
+                    }
+
+
+
+
+
+                </Row> */}
+            </>
         )
     }
 }
@@ -48,4 +72,3 @@ export default Main
     //     return title ;
     //   })
     // }
-    
